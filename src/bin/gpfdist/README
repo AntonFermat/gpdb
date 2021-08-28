@@ -8,3 +8,15 @@ Compiling
 ./configure --enable-transformations --prefix=<Location of $GPHOME>
 make
 make install
+
+Compiling with static links
+-------------
+make -f Makefile.static
+
+Build deb package
+-------------
+./gpfdist_build_deb.sh
+
+Build rpm package
+-------------
+./gpfdist_build_rpm.sh
